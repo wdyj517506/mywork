@@ -37,4 +37,8 @@ class Login extends AdminBase
         }
         return $this->show(config("status.code.success"), "登录成功");
     }
+    public function add()
+    {
+        
+    }
 }
